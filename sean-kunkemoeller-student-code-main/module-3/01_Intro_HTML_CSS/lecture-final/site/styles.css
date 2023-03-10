@@ -1,0 +1,16 @@
+img{
+    height: 200px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+   font-size: 32px;
+   color: rgb(93, 8, 110);
+}
+
+h2, h3{
+    color: rgb(93, 8, 110);
+}

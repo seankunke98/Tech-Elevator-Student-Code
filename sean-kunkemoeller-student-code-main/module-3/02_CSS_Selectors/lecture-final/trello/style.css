@@ -1,0 +1,136 @@
+
+html {
+    height: 100%;
+    font-size: 16px;
+   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom, #858c90, #bbb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
+
+Style list container
+
+*/
+    /* Create multi-column layout for future divs*/
+   div.trello-list{
+
+       display: inline-block;
+        /* Fixed width column */
+       width: 300px;
+        /* Look & Feel ex background color*/
+       background-color: #ddd;
+          /* Rounded corners */
+       border-radius: 3px;
+   } 
+
+ /*
+ 
+ Style the trello-list header
+    Push H2 from the edge
+    Keep font consistent with root document size
+ */
+
+div.trello-list h2{
+    margin: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*
+
+Style ol in trello-list
+    Remove any margin and padding pushing the cards in
+*/
+
+div.trello-list ol{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+
+Style li's
+    Remove numerical formatting for each card
+    Set background color of each item; Hex or RGB
+    Adjust the font to be smaller than the list title
+    Round each card edge
+    Spacing between and within list items
+*/
+
+div.trello-list li{
+    list-style: none;
+    background-color: rgb(255,255,255);
+    font-size: .9rem;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+
+/* Make the li item darker on hover */
+ 
+div.trello-list li:hover{
+    background-color: #c2b3b3;
+    color: #c7500b;
+}
+
+
+/* The last list item needs to reset its margin */
+
+div.trello-list li:last-child{
+    margin-bottom: 0;
+}
+
+div.trello-list a{
+    color: rgb(173, 172, 172);
+    text-decoration: none;
+    padding: 8px 0px 8px 5px;
+    font-size: .85rem;
+}
+
+/*want the a tag to have hover thing*/
+
+div.trello-list a:hover{
+    background-color: #dbd4d4;
+}
+
+/*Add styling for the labels nested in the trello-list element*/
+
+.labels span {
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 8px;
+    border-radius: 3px;
+  }
+  
+  .label.pathway {
+    background-color: red;
+  }
+  
+  .label.individual {
+    background-color: green;
+  }
+  
+  .label.pair {
+    background-color: teal;
+  }
+  
+  .label.general {
+    background-color: orange;
+  }
+  
+
+
+
+

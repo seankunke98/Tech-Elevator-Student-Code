@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-size: 20px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+
+#one{
+    background-color: purple;
+    padding: 1%;
+    border: 5px;
+    border-style: solid;
+    border-color: aqua;
+    position: fixed;
+    top: 25px;
+    left: 100px;
+}
+#two{
+    background-color: lightgoldenrodyellow;
+    float: left;
+}
+
+#three{
+    background-color:lightseagreen;
+    
+}
+
+#imgContainer{
+    background-color: red;
+}
+
+span{
+    background-color: brown;
+    padding: 3%;
+    width: 200px;
+    display: none;
+}
+
+#container{
+    /* position: relative; */
+    top: 50px;
+    left: 50px;
+    height: 250px;
+    width: 650px;
+    background: white;
+    background-image: linear-gradient(90deg, rgba(114, 111, 111, 0.5) 50%, transparent 0),
+                      linear-gradient(rgba(114, 111, 111, 0.5) 50%, transparent 0);
+    background-size: 50px 50px;
+}
+
+/* #one{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+} */
+
+img{
+    height: 50px;
+    display: inline-block;
+}
+
+/* #meatwad{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */

@@ -1,0 +1,80 @@
+#container1{
+    /*Make this the flex container*/
+    display: flex;
+    flex-direction: row;
+    /*the container needs to distribute its items*/
+    /* justify-content: space-around;
+    align-items: flex-end; */
+    height: 300px;
+    width: 600px;
+    background: white;
+    background-image: linear-gradient(90deg, rgba(114, 111, 111, 0.5) 50%, transparent 0),
+                      linear-gradient(rgba(114, 111, 111, 0.5) 50%, transparent 0);
+    background-size: 50px 50px;
+}
+
+#container2{
+    /*Make this the flex container*/
+    display: flex;
+    flex-direction: row;
+    /*the container needs to distribute its items*/
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    /*tell the container to handle wrapping if the content requires it*/
+    flex-wrap: wrap;
+    height: 300px;
+    width: 800px;
+    background: white;
+    background-image: linear-gradient(90deg, rgba(114, 111, 111, 0.5) 50%, transparent 0),
+                      linear-gradient(rgba(114, 111, 111, 0.5) 50%, transparent 0);
+    background-size: 50px 50px;
+}
+
+div.box{
+    /* height: 100px; */
+    min-width: 100px;
+    
+}
+
+/* #container1 > div.box{
+    height: 100px;
+} */
+
+
+#container2 > div.box{
+    /* height: 100px; */
+}
+
+.one{
+    flex-basis: 75px;
+    background-color: purple;
+}
+.two{
+    flex-basis: 150px;
+    background-color: lightgoldenrodyellow;
+}
+.three{
+    background-color: black;
+    flex-basis: 200px;
+    color: white;
+}
+
+.four{
+    order: -3;
+    background-color: red;
+   
+}
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: blue;
+    font-size: 30px;
+    order:4;
+}
+.six{
+    /* align-self: flex-start; */
+    order: 5;
+    background-color: green;
+}
